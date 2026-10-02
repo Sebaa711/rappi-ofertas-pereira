@@ -7,10 +7,11 @@ import logging
 import os
 import sys
 import time
+import urllib.parse
 from dataclasses import replace
 
 from . import __version__
-from .browser import RappiBrowser
+from .browser import RappiBrowser, location_cookie_value
 from .config import Config, ConfigError
 from .http import HttpClient
 from .models import Alert, ScanResult
@@ -138,7 +139,14 @@ def run(cfg: Config, args: argparse.Namespace, log: logging.Logger, now: float |
             handler.setFormatter(privacy)
     state_path = args.memoria or cfg.state_path
     state = State.load(state_path, log)
-    http = http or HttpClient(delay=cfg.request_delay, max_requests=400)
+    # Sin la cookie de ubicación, Rappi responde a IPs fuera de Colombia (GitHub Actions)
+    # con el catálogo nacional: 1.600+ tiendas de Rappi Mall en vez de las ~70 de tu ciudad.
+    http = http or HttpClient(
+        delay=cfg.request_delay,
+        max_requests=400,
+        cookie="currentLocation=" + location_cookie_value(cfg.lat, cfg.lng, cfg.city),
+        cookie_host=urllib.parse.urlsplit(cfg.base_url).hostname,
+    )
     notifier = notifier or Notifier(cfg, http, dry_run=args.sin_enviar, log=log)
     browser_factory = browser_factory or (lambda: RappiBrowser(cfg, log))
     test_mode = args.prueba or _truthy(os.environ.get("MODO_PRUEBA"))

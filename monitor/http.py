@@ -39,8 +39,13 @@ class HttpClient:
         user_agent: str = USER_AGENT,
         sleep: Callable[[float], None] = time.sleep,
         clock: Callable[[], float] = time.monotonic,
+        cookie: str | None = None,
+        cookie_host: str | None = None,
     ) -> None:
         self.delay = delay
+        # Cookie que solo se envía a cookie_host (la ubicación para Rappi).
+        self.cookie = cookie
+        self.cookie_host = cookie_host
         self.timeout = timeout
         self.max_requests = max_requests
         self.user_agent = user_agent
@@ -80,16 +85,15 @@ class HttpClient:
                 raise BudgetExceeded(f"se llegó al máximo de {self.max_requests} consultas")
             self._wait_turn()
             self.requests_made += 1
-            request = urllib.request.Request(
-                safe_url(url),
-                headers={
-                    "User-Agent": self.user_agent,
-                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                    "Accept-Language": "es-CO,es;q=0.9",
-                    "Accept-Encoding": "gzip, deflate",
-                    **(headers or {}),
-                },
-            )
+            base_headers = {
+                "User-Agent": self.user_agent,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "es-CO,es;q=0.9",
+                "Accept-Encoding": "gzip, deflate",
+            }
+            if self.cookie and urllib.parse.urlsplit(url).hostname == self.cookie_host:
+                base_headers["Cookie"] = self.cookie
+            request = urllib.request.Request(safe_url(url), headers={**base_headers, **(headers or {})})
             try:
                 with urllib.request.urlopen(request, timeout=self.timeout) as response:
                     body = response.read()

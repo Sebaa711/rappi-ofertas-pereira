@@ -142,7 +142,8 @@ def _check_restaurant(cfg, browser, http, candidate, result: ScanResult, log) ->
 
 def load_store_list(cfg: Config, http, state: State, now: float, log) -> list[tuple[int, str]]:
     cached = state.cached_stores(now)
-    sources = {"city": cfg.city, "types": cfg.store_types, "market": cfg.check_market}
+    # "location" invalida listas guardadas antes de enviar la cookie de ubicación.
+    sources = {"city": cfg.city, "types": cfg.store_types, "market": cfg.check_market, "location": 1}
     if cached and state.store_list.get("sources") == sources:
         return cached
     found: dict[int, str] = {}

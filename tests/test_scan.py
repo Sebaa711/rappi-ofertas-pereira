@@ -212,7 +212,7 @@ def test_cursor_survives_a_block_mid_batch_and_the_daily_list_refresh(cfg):
     cfg.store_batch = 3
     state = State()
     state.set_stores([(1, "a"), (2, "b"), (3, "c")], NOW)
-    state.store_list.update(next_start=0, sources={"city": cfg.city, "types": cfg.store_types, "market": False})
+    state.store_list.update(next_start=0, sources={"city": cfg.city, "types": cfg.store_types, "market": False, "location": 1})
 
     class Http:
         calls = []

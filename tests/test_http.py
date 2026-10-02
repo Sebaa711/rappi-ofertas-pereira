@@ -100,3 +100,28 @@ def test_post_json(monkeypatch):
     assert calls[0].data.decode("utf-8") == '{"topic": "t", "title": "¡Oferta!"}'
     assert calls[0].get_header("Authorization") == "Bearer x"
     assert client.post_json("https://ntfy.sh/", {}) == 400
+
+
+def test_location_cookie_only_goes_to_rappi(monkeypatch):
+    calls = []
+
+    class Response:
+        headers = {}
+        status = 200
+
+        def read(self):
+            return b"ok"
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            pass
+
+    Response.headers = type("H", (), {"get": lambda self, k, d=None: d, "get_content_charset": lambda self: "utf-8"})()
+    monkeypatch.setattr(http_module.urllib.request, "urlopen", lambda req, timeout: calls.append(req) or Response())
+    client = HttpClient(delay=0, sleep=lambda s: None, cookie="currentLocation=abc", cookie_host="www.rappi.com.co")
+    client.get("https://www.rappi.com.co/pereira/tiendas/tipo/market")
+    client.get("https://example.com/")
+    assert calls[0].get_header("Cookie") == "currentLocation=abc"
+    assert calls[1].get_header("Cookie") is None
