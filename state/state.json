@@ -788,7 +788,7 @@
     "birdcoffee-mt-nc"
    ]
   ],
-  "next_start": 16,
+  "next_start": 56,
   "sources": {
    "city": "pereira",
    "types": [
@@ -802,5 +802,5 @@
    "location": 1
   }
  },
- "saved_at": 1791073982
+ "saved_at": 1791094563
 }
