@@ -395,7 +395,9 @@
   "feeeecff640cc980": 1791053326,
   "ff186b48a23ca472": 1791006029
  },
- "failures": {},
+ "failures": {
+  "tiendas": 1
+ },
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1791316038,
@@ -865,7 +867,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 75,
+  "next_start": 114,
   "sources": {
    "city": "pereira",
    "types": [
@@ -879,5 +881,5 @@
    "location": 1
   }
  },
- "saved_at": 1791330264
+ "saved_at": 1791351833
 }
