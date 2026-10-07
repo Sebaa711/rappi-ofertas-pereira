@@ -279,6 +279,7 @@
   "aacaa2f57c46b9e6": 1790956653,
   "ab824b672d8ed9b4": 1790934126,
   "acbb91ba392cc0aa": 1790956653,
+  "ad3518ae06d9b914": 1791416697,
   "ad42b72af9592b1d": 1790934126,
   "adbf7e2717a5381f": 1791065177,
   "ade6c95cca088522": 1790987041,
@@ -415,7 +416,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1791316038,
+  "fetched_at": 1791416697,
   "stores": [
    [
     900038597,
@@ -524,6 +525,10 @@
    [
     900260524,
     "goutmetfamily-ecommerce-mt"
+   ],
+   [
+    900267233,
+    "grupogiraldo-home-nc"
    ],
    [
     900272425,
@@ -830,6 +835,10 @@
     "alejandroquiroz-mt-enc"
    ],
    [
+    900504880,
+    "tusmarcasdeleje-mt-enc"
+   ],
+   [
     900505034,
     "goldenparfumimportadora-mt-enc"
    ],
@@ -882,7 +891,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 39,
+  "next_start": 80,
   "sources": {
    "city": "pereira",
    "types": [
@@ -896,5 +905,5 @@
    "location": 1
   }
  },
- "saved_at": 1791401407
+ "saved_at": 1791416697
 }
