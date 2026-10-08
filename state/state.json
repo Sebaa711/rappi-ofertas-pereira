@@ -385,6 +385,7 @@
   "e1e1cccc0a5f750e": 1791006029,
   "e2955326c06bd9b3": 1791040418,
   "e2f4f9607a3f01fb": 1791438689,
+  "e321fc31805e9fa3": 1791503669,
   "e333ef0a9862f60e": 1790956653,
   "e3d350a304e75572": 1790973535,
   "e43b560df12011cf": 1791438689,
@@ -434,7 +435,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1791416697,
+  "fetched_at": 1791503669,
   "stores": [
    [
     900038597,
@@ -551,10 +552,6 @@
    [
     900272425,
     "medipiel"
-   ],
-   [
-    900278346,
-    "oxxo-nc"
    ],
    [
     900278514,
@@ -693,8 +690,8 @@
     "herbal-mt-nc"
    ],
    [
-    900438008,
-    "drogueriaalemana-dermo-nc"
+    900433136,
+    "oxxo-nc"
    ],
    [
     900438790,
@@ -717,16 +714,8 @@
     "ragged-mt-enc"
    ],
    [
-    900444078,
-    "bebes-alemana-nc"
-   ],
-   [
     900445459,
     "atlantic"
-   ],
-   [
-    900451682,
-    "drogueriaalemana-licores-nc"
    ],
    [
     900452145,
@@ -909,7 +898,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 82,
+  "next_start": 4,
   "sources": {
    "city": "pereira",
    "types": [
@@ -923,5 +912,5 @@
    "location": 1
   }
  },
- "saved_at": 1791487440
+ "saved_at": 1791503669
 }
