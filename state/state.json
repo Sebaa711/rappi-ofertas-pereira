@@ -898,7 +898,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 4,
+  "next_start": 44,
   "sources": {
    "city": "pereira",
    "types": [
@@ -912,5 +912,5 @@
    "location": 1
   }
  },
- "saved_at": 1791503669
+ "saved_at": 1791525403
 }
