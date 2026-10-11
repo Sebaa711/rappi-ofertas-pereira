@@ -23,7 +23,7 @@
   "0ad9656effd973bd": 1791587392,
   "0b13f5741f77c3ed": 1790934126,
   "0b325a8aaf41ab6c": 1790987041,
-  "0ba920f622b73867": 1790973535,
+  "0ba920f622b73867": 1791710112,
   "0bd0a66a9eb12e03": 1790973535,
   "0ca4b59d966238fb": 1791465488,
   "0caf08d236062222": 1791006029,
@@ -179,7 +179,7 @@
   "52cf8446a5ef0102": 1791166815,
   "53223d86a1c1b57d": 1790934126,
   "53da89d0577aa1b7": 1791027194,
-  "5420d1618d332fa6": 1790934126,
+  "5420d1618d332fa6": 1791710112,
   "544319aa8d6b2277": 1791027194,
   "54a9d68e911bc136": 1791487440,
   "55de5831898756f8": 1791571593,
@@ -529,7 +529,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1791599968,
+  "fetched_at": 1791710112,
   "stores": [
    [
     900038597,
@@ -664,10 +664,6 @@
     "larebaja"
    ],
    [
-    900368197,
-    "oxxo-express-nc"
-   ],
-   [
     900372634,
     "nespresso"
    ],
@@ -704,20 +700,12 @@
     "cruz-verde-mt-nc"
    ],
    [
-    900394238,
-    "floristeriaydetallesperei-mt-enc"
-   ],
-   [
     900402531,
     "pgfloristeria-mt-enc"
    ],
    [
     900402879,
     "florescabin-mt-enc"
-   ],
-   [
-    900402966,
-    "oxxo-licores-nc"
    ],
    [
     900403584,
@@ -788,8 +776,8 @@
     "cervalle"
    ],
    [
-    900433136,
-    "oxxo-nc"
+    900432731,
+    "herbal-mt-nc"
    ],
    [
     900438790,
@@ -804,16 +792,16 @@
     "celularesyaccesorioshotli-mt-enc"
    ],
    [
-    900441546,
-    "floristeriamildetalles-mt-enc"
-   ],
-   [
     900443744,
     "ragged-mt-enc"
    ],
    [
     900445459,
     "atlantic"
+   ],
+   [
+    900446143,
+    "oxxo-nc"
    ],
    [
     900452145,
@@ -842,6 +830,10 @@
    [
     900456337,
     "dyginversionesglobalsas-mt-enc"
+   ],
+   [
+    900463478,
+    "floristeriadluxe-mt-enc"
    ],
    [
     900464761,
@@ -972,10 +964,6 @@
     "purpuremakeup-mt-enc"
    ],
    [
-    900509056,
-    "maracuyabite-mt-nc"
-   ],
-   [
     900509877,
     "floristerialiriosdorados-mt-enc"
    ],
@@ -992,7 +980,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 61,
+  "next_start": 98,
   "sources": {
    "city": "pereira",
    "types": [
@@ -1006,5 +994,5 @@
    "location": 1
   }
  },
- "saved_at": 1791684470
+ "saved_at": 1791710112
 }
