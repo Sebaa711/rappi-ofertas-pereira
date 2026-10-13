@@ -126,6 +126,7 @@
   "38de0298be6da5f5": 1791647423,
   "392f6ce1f144498c": 1790934126,
   "39b562c98b72e11b": 1790973535,
+  "39ca7400b4886345": 1791914862,
   "39f1e47cc6c38ea4": 1791192854,
   "39f66fb63c68ef36": 1790973535,
   "39fb08444cae196b": 1791571593,
@@ -183,6 +184,7 @@
   "52c0e2ec5d22f536": 1791844474,
   "52cf8446a5ef0102": 1791783907,
   "53223d86a1c1b57d": 1790934126,
+  "53a14981a1adfd05": 1791914862,
   "53da89d0577aa1b7": 1791027194,
   "5420d1618d332fa6": 1791710112,
   "544319aa8d6b2277": 1791027194,
@@ -436,7 +438,7 @@
   "cdcc886ca1127e8d": 1791674774,
   "ce312aed07d92119": 1790934126,
   "ce34bf6946b82312": 1791006029,
-  "ce67e7faaa6f3380": 1791296763,
+  "ce67e7faaa6f3380": 1791914862,
   "cf6b53e1b6937bc1": 1791027194,
   "d0670cffac439a30": 1791040418,
   "d0c69d2e84add759": 1790934126,
@@ -539,7 +541,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1791817924,
+  "fetched_at": 1791914862,
   "stores": [
    [
     900038597,
@@ -714,6 +716,10 @@
     "cruz-verde-mt-nc"
    ],
    [
+    900394238,
+    "floristeriaydetallesperei-mt-enc"
+   ],
+   [
     900402531,
     "pgfloristeria-mt-enc"
    ],
@@ -746,6 +752,10 @@
     "floristeriaartefloral-mt-enc"
    ],
    [
+    900412897,
+    "ameliefloristeria-mt-enc"
+   ],
+   [
     900413256,
     "chocolove-mt-enc"
    ],
@@ -764,6 +774,10 @@
    [
     900414923,
     "jumbo-belleza-nc"
+   ],
+   [
+    900417771,
+    "floristeriasalome-mt-enc"
    ],
    [
     900418193,
@@ -808,6 +822,10 @@
    [
     900440922,
     "celularesyaccesorioshotli-mt-enc"
+   ],
+   [
+    900441546,
+    "floristeriamildetalles-mt-enc"
    ],
    [
     900443744,
@@ -998,7 +1016,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 81,
+  "next_start": 7,
   "sources": {
    "city": "pereira",
    "types": [
@@ -1012,5 +1030,5 @@
    "location": 1
   }
  },
- "saved_at": 1791889197
+ "saved_at": 1791914862
 }
