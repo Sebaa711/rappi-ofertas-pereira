@@ -514,6 +514,7 @@
   "f3cbd7cb3fd8dea0": 1791330264,
   "f407384270fe44bd": 1792109796,
   "f465654d725ba77a": 1791982949,
+  "f4e6ba54c7e4c8df": 1792364381,
   "f5df275d4a81e828": 1792089318,
   "f7fc910778a65983": 1791330264,
   "f82215c3c60f2fe2": 1791982949,
@@ -536,7 +537,9 @@
   "fdfa499095f33564": 1792109796,
   "fec4f9f00c597af3": 1791625372
  },
- "failures": {},
+ "failures": {
+  "tiendas": 1
+ },
  "last_failure_notice": null,
  "store_list": {
   "fetched_at": 1792279279,
@@ -1014,7 +1017,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 107,
+  "next_start": 115,
   "sources": {
    "city": "pereira",
    "types": [
@@ -1028,5 +1031,5 @@
    "location": 1
   }
  },
- "saved_at": 1792357191
+ "saved_at": 1792364381
 }
