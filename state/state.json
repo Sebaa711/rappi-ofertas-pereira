@@ -270,6 +270,7 @@
   "78022711d54c8f69": 1791932659,
   "78a0234baeaabb8d": 1792109796,
   "7a2cd736471ea942": 1791982949,
+  "7abb5e880b4c9771": 1792371877,
   "7b0555dc38295c6b": 1792013684,
   "7b21ce62a320fb22": 1792196320,
   "7c9f36abf6557b01": 1791783907,
@@ -537,12 +538,10 @@
   "fdfa499095f33564": 1792109796,
   "fec4f9f00c597af3": 1791625372
  },
- "failures": {
-  "tiendas": 1
- },
+ "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1792279279,
+  "fetched_at": 1792371877,
   "stores": [
    [
     900038597,
@@ -989,14 +988,6 @@
     "pasteur"
    ],
    [
-    900508149,
-    "probilife-mt-nc"
-   ],
-   [
-    900508311,
-    "montallantasperladelsur-mt-enc"
-   ],
-   [
     900508956,
     "purpuremakeup-mt-enc"
    ],
@@ -1017,7 +1008,7 @@
     "licorstore-mt-nc"
    ]
   ],
-  "next_start": 115,
+  "next_start": 37,
   "sources": {
    "city": "pereira",
    "types": [
@@ -1031,5 +1022,5 @@
    "location": 1
   }
  },
- "saved_at": 1792364381
+ "saved_at": 1792371877
 }
