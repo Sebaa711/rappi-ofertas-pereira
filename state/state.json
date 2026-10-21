@@ -1016,7 +1016,7 @@
     "domadoresdelfuego-mt-nc"
    ]
   ],
-  "next_start": 13,
+  "next_start": 53,
   "sources": {
    "city": "pereira",
    "types": [
@@ -1030,5 +1030,5 @@
    "location": 1
   }
  },
- "saved_at": 1792557247
+ "saved_at": 1792575238
 }
