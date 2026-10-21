@@ -561,7 +561,7 @@
  "failures": {},
  "last_failure_notice": null,
  "store_list": {
-  "fetched_at": 1792460532,
+  "fetched_at": 1792557247,
   "stores": [
    [
     900038597,
@@ -696,10 +696,6 @@
     "larebaja"
    ],
    [
-    900368197,
-    "oxxo-express-nc"
-   ],
-   [
     900372634,
     "nespresso"
    ],
@@ -742,10 +738,6 @@
    [
     900402879,
     "florescabin-mt-enc"
-   ],
-   [
-    900402966,
-    "oxxo-licores-nc"
    ],
    [
     900403584,
@@ -824,10 +816,6 @@
     "herbal-mt-nc"
    ],
    [
-    900433136,
-    "oxxo-nc"
-   ],
-   [
     900438790,
     "funat"
    ],
@@ -846,6 +834,10 @@
    [
     900445459,
     "atlantic"
+   ],
+   [
+    900446143,
+    "oxxo-nc"
    ],
    [
     900452145,
@@ -906,10 +898,6 @@
    [
     900470956,
     "lovsymarket-mt-enc"
-   ],
-   [
-    900473076,
-    "colsubsidio"
    ],
    [
     900473593,
@@ -1022,9 +1010,13 @@
    [
     900511931,
     "licorstore-mt-nc"
+   ],
+   [
+    900513343,
+    "domadoresdelfuego-mt-nc"
    ]
   ],
-  "next_start": 89,
+  "next_start": 13,
   "sources": {
    "city": "pereira",
    "types": [
@@ -1038,5 +1030,5 @@
    "location": 1
   }
  },
- "saved_at": 1792541098
+ "saved_at": 1792557247
 }
